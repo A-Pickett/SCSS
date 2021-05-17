@@ -1,0 +1,18 @@
+$theme-color: red;
+$p-margin-style: 60px;
+
+header{
+  color: $theme-color;
+}
+
+footer{
+  color: $theme-color;
+}
+
+button{
+  background-color: $theme-color;
+}
+
+p{
+  margin: $p-margin-style;
+}

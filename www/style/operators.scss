@@ -1,0 +1,21 @@
+$base-size: 20px;
+$base-color: red;
+
+p {
+  font-size: $base-size
+}
+//We accessed this paragrpah via an id that I assigned to the element in the html file.
+#p3 {
+  font-size: $base-size * 2;
+}
+#p4 {
+  font-size: $base-size / 2;
+}
+// not working on colors.
+// #p5 {
+//   background-color: $base-color;
+// }
+//
+// #p6{
+//   background-color: $base-color + 50%;
+// }

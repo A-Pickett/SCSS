@@ -1,0 +1,15 @@
+@mixin text-style($size){
+  font-size: $size;
+  @if $size > 20px {
+    color: blue;
+  } @elseif $size == 20px {
+    color: red;
+  } @else {
+    color: green;
+  }
+
+}
+
+header {
+  @include text-style(30px);
+}

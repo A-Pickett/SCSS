@@ -1,0 +1,14 @@
+main {
+  background-color: blue;
+}
+main p {
+  color: red;
+}
+main article {
+  background-color: yellow;
+}
+main article p {
+  color: green;
+}
+
+/*# sourceMappingURL=nested.css.map */

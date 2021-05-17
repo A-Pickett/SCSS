@@ -1,0 +1,11 @@
+header {
+  border: 1px dashed black;
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+main p {
+  text-shadow: 5px 5px blue;
+}
+
+/*# sourceMappingURL=mixins.css.map */

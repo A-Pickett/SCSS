@@ -1,0 +1,22 @@
+@mixin fancy-border {
+  border: 1px dashed black;
+  border-radius: 5px;
+}
+//  Here we are defining the mixin and giving default parameters. These can be
+// overridden, see below for main.
+@mixin fancy-shadow($horiz: 1px, $vert: 1px, $color: red) {
+  text-shadow: $horiz $vert $color;
+}
+
+header {
+  // applying the mixin to the header.
+  @include fancy-border;
+  // also adding more info on top of the mixin
+  background-color: yellow;
+}
+// Uing the mixing for text shadow and over riding the params with new values.
+main {
+  p {
+    @include fancy-shadow(5px, 5px, blue);
+  }
+}

@@ -1,0 +1,14 @@
+.message, .error, .warning {
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.warning {
+  color: yellow;
+}
+
+.error {
+  color: red;
+}
+
+/*# sourceMappingURL=extends&inherit.css.map */
